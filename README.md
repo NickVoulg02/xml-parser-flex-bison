@@ -60,5 +60,5 @@ The XML file is properly formatted!
 
 
 ## ✨Authors
-Alexopoulos Vasileios (1084625)
-Voulgaris Nikolaos (1084626)
+- Alexopoulos Vasileios (1084625)
+- Voulgaris Nikolaos (1084626)
