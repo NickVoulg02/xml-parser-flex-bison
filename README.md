@@ -52,10 +52,10 @@ The XML file is properly formatted!
 ```
 
 ## 📂 Project Structure
-- ask_1.l          # Flex file (lexer)
-- ask_1.y          # Bison file (parser + grammar)
-- sk_1.tab.c/.h   # Auto-generated parser files
-- lex.yy.c       # Auto-generated lexer file
+- ask_1.l -> Flex file (lexer)
+- ask_1.y -> Bison file (parser + grammar)
+- sk_1.tab.c/.h -> Auto-generated parser files
+- lex.yy.c -> Auto-generated lexer file
 - Makefile
 
 
