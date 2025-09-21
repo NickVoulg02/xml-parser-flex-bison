@@ -37,21 +37,12 @@ Otherwise, it reports **detailed error messages** with line numbers.
 
 ### 1. Build
 ```bash
-flex ask.l
-bison -d ask.y
-gcc lex.yy.c ask.tab.c -o myParser
+make
 ```
 
-### 2. Run
+### 2. Run Example
 ```bash
-./myParser input.xml
-```
-
-### 3. Example
-```bash
-<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello World"/>
-</LinearLayout>
+./myParser input
 ```
 
 ### Output:
@@ -61,14 +52,12 @@ The XML file is properly formatted!
 ```
 
 ## 📂 Project Structure
-.
-├── ask.l          # Flex file (lexer)
-├── ask.y          # Bison file (parser + grammar)
-├── ask.tab.c/.h   # Auto-generated parser files
-├── lex.yy.c       # Auto-generated lexer file
-├── unique.txt     # Used internally to track IDs
-├── button.txt     # Used internally to track RadioButtons
-└── examples/      # Example XML test cases
+- ask_1.l          # Flex file (lexer)
+- ask_1.y          # Bison file (parser + grammar)
+- sk_1.tab.c/.h   # Auto-generated parser files
+- lex.yy.c       # Auto-generated lexer file
+- Makefile
+
 
 ## ✨Authors
 Alexopoulos Vasileios (1084625)
