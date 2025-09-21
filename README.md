@@ -60,7 +60,7 @@ gcc lex.yy.c ask.tab.c -o myParser
 The XML file is properly formatted!
 ```
 
-### Project Structure
+## 📂 Project Structure
 .
 ├── ask.l          # Flex file (lexer)
 ├── ask.y          # Bison file (parser + grammar)
@@ -70,6 +70,6 @@ The XML file is properly formatted!
 ├── button.txt     # Used internally to track RadioButtons
 └── examples/      # Example XML test cases
 
-## Authors
+## ✨Authors
 Alexopoulos Vasileios (1084625)
 Voulgaris Nikolaos (1084626)
